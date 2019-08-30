@@ -1178,7 +1178,7 @@ class Executor(base_executor.BaseExecutor):
     # File patterns will need to be processed independently.
     return [
         _Dataset(p, f, data_format, metadata)
-        for p, f in zip(file_patterns, file_formats)
+        for p, f in sorted(zip(file_patterns, file_formats))
     ]
 
   @staticmethod
