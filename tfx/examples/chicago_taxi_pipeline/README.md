@@ -101,6 +101,7 @@ pip install -r requirements.txt
 pip install tensorflow==1.13.1
 pip install docker==4.0.1
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
+pip install werkzeug==0.15.4
 pip install apache-airflow==1.10.3
 pip install tfx==0.13.0
 </pre>
